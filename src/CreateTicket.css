@@ -1,0 +1,60 @@
+.create-ticket-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.create-ticket-card {
+  width: 420px;
+  background: white;
+  border: 1px solid #e5e4e7;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.create-ticket-card h2 {
+  margin-bottom: 16px;
+}
+
+.create-ticket-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.create-ticket-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 6px;
+}
+
+.create-ticket-form input,
+.create-ticket-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.create-ticket-form input:focus,
+.create-ticket-form textarea:focus {
+  border-color: #aa3bff;
+}
+
+.create-ticket-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #aa3bff;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.create-ticket-form button:hover {
+  opacity: 0.9;
+}
